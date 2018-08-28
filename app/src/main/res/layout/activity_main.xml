@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <com.google.android.flexbox.FlexboxLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flexWrap="wrap"
+        app:alignItems="stretch"
+        app:alignContent="stretch" >
+
+        <TextView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:layout_flexGrow="1"
+            android:background="@drawable/portada"
+            android:text="Gallery musics"
+            android:textSize="45dp"
+            android:textColor="@color/color_white"
+            android:textAlignment="center"
+            android:padding="61dp"
+            android:fontFamily="@font/fuente1"
+            />
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album1"
+            />
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album2"
+            />
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album3"
+            />
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album4"
+            />
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album5"
+            />
+        <ImageView
+
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album6"
+            />
+        <ImageView
+
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album7"
+            />
+        <ImageView
+
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album8"
+            />
+        <ImageView
+
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="130dp"
+            app:layout_flexGrow="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/album9"
+            />
+    </com.google.android.flexbox.FlexboxLayout>
+
+</ScrollView>
